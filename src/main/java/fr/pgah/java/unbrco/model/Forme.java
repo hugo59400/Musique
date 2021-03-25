@@ -3,10 +3,12 @@ package fr.pgah.java.unbrco.model;
 import fr.pgah.java.son.MidiSynth;
 import java.awt.*;
 
+
 public abstract class Forme{
 
-  protected static final Color COULEUR_LIGNE_JOUEE = new Color(230, 158, 60);
+  protected static final Color COULEUR_LIGNE_JOUEE = new Color(300, 150, 60);
 
+  
   protected int x;
   protected int y;
   protected int longueur;
@@ -32,12 +34,6 @@ public abstract class Forme{
     this.hauteur = hauteur;
 
   }
-
-
-
-
-
-
   
 
   public boolean contientX(int x) {
@@ -153,5 +149,4 @@ public abstract class Forme{
 public int getLongueur() {
     return longueur;
 }
-
 }
