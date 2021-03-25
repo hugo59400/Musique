@@ -8,7 +8,7 @@ import fr.pgah.java.unbrco.ui.EditeurDeFormes;
 
 public class OutilFormeOvale extends OutilForme {
     
-    int instrument = 124;
+    int instrument = 100;
 
 
     public OutilFormeOvale(EditeurDeFormes editeur, JComponent parent) {
