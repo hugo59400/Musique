@@ -57,10 +57,8 @@ public class LecteurDeDessin implements ActionListener {
     dansLaColonneCourante = dessin.formesSurLaColonne(colonneEnCours);
 
     // À COMPLÉTER
-
     // Déselectionner et stopper toutes les formes qui étaient dans
     // la colonne précédente et qui ne sont plus dans la colonne courante
-
     // Sélectionner et jouer toutes les formes qui sont dans
     // la colonne courante et qui n'étaient pas dans la colonne précédente
 
