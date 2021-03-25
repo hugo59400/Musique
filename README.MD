@@ -17,5 +17,9 @@ Projet support SLAM5.
 2) Evolution 
 
 Le bouton « Forme » courant deviendra « Forme rectangle » Fait
+
+
 Ajouter un bouton « Forme ovale » en examinant le traitement actuel des boutons et en dupliquant/adaptant ces fonctionnalités Fait
+
+
 Ajouter une classe qui implémente la nouvelle forme en regardant comment la classe Forme fonctionne Fait
