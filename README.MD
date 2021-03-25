@@ -15,4 +15,11 @@ Projet support SLAM5.
 9. Ajoutez tous les getters et setters nécessaires à la compilation et au bon fonctionnement de l'application.  FAIT
 
 l'outil JOUER tout le dessin  fonctionne 
+
 J'ai amelioré en mettant la classe forme en abstrait puis en creeant 2 nouvelles classes Rectangle et Ovale 
+
+Ajouter un bouton « Forme ovale » en examinant le traitement actuel des boutons et en dupliquant/adaptant ces fonctionnalités FAIT 
+
+Ajouter une classe qui implémente la nouvelle forme en regardant comment la classe Forme fonctionne  FAIT 
+
+Concevez la classe abstraite Forme dont vont dériver deux classes concrètes Rectangle et Ovale ; factorisez le code commun dans la classe abstraite FAIT 
