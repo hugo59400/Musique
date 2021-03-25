@@ -138,6 +138,11 @@ public class EditeurDeFormes extends JFrame {
 
     OutilJouerDessin outilJouerDessin = new OutilJouerDessin(this, zoneOutils);
     outils.add(outilJouerDessin);
+    
+       OutilFormeOvale outilfFormeOvale = new OutilFormeOvale(this, zoneOutils);
+    outils.add(outilfFormeOvale);
+
+
 
     setOutilActif(outilForme);
   }
