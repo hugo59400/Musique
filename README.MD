@@ -14,4 +14,5 @@ Projet support SLAM5.
 8. Compléter l'implémentation des deux méthodes `ajouterAuDessin` et `supprimerDuDessin` de la classe `EditeurDeFormes`.   FAIT
 9. Ajoutez tous les getters et setters nécessaires à la compilation et au bon fonctionnement de l'application.  FAIT
 
-JOUER tout le dessin  ne fonctionne pas pour l'instant    
+l'outil JOUER tout le dessin  fonctionne 
+J'ai amelioré en mettant la classe forme en abstrait puis en creeant 2 nouvelles classes Rectangle et Ovale 
