@@ -93,16 +93,16 @@ public class Dessin extends JPanel {
     // À COMPLÉTER
     // Renvoyer la liste des formes qui se trouvent sur la colonne donnée
     // (liste vide si aucune)
-    List<Forme> res = new ArrayList<>();
+    List<Forme> resultat = new ArrayList<>();
 
     for (Forme forme : formes) {
       if (forme.contientX(col)) {
 
-        res.add(forme);
+        resultat.add(forme);
       }
     }
 
-    return res;
+    return resultat;
   }
 
   public void setColonneCourante(int colonneCourante) {
