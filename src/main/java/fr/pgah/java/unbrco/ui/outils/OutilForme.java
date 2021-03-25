@@ -18,12 +18,15 @@ public class OutilForme extends Outil {
     forme = null;
   }
 
+  
+  
   @Override
   protected void creerBouton(JComponent parent) {
-    bouton = new JButton("Forme rectangle");
+    bouton = new JButton("Forme Rectangle");
     bouton = customiserButton(bouton);
   }
 
+  
   @Override
   protected void ajouterListener() {
     bouton.addActionListener(new OutilFormeClicHandler());
