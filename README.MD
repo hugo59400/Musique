@@ -24,7 +24,7 @@ Ajouter un bouton « Forme ovale » en examinant le traitement actuel des bo
 
 Ajouter une classe qui implémente la nouvelle forme en regardant comment la classe Forme fonctionne Fait
 
-Refactoring
+3 )Refactoring
 
 
 Concevez la classe abstraite Forme dont vont dériver deux classes concrètes Rectangle et Ovale ; factorisez le code commun dans la classe abstraite Fait
