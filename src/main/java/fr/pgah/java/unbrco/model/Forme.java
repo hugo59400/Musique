@@ -80,9 +80,7 @@ public abstract class Forme{
     hauteur = basDroite.y - y;
   }
 
-  public abstract void dessiner(Graphics g) {
-   
-  }
+  public abstract void dessiner(Graphics g) ;
 
   public void deplacer(int dx, int dy) {
     boolean changementNote;
