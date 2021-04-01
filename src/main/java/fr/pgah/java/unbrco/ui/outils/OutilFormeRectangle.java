@@ -7,7 +7,7 @@ import fr.pgah.java.unbrco.ui.EditeurDeFormes;
 
 public class OutilFormeRectangle extends OutilForme{
 
-    int instrument = 1;
+    int instrument = 100;
 
     public OutilFormeRectangle(EditeurDeFormes editeur, JComponent parent) {
         super(editeur, parent);
