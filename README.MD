@@ -1,6 +1,6 @@
 # Lecteur de formes
 
-Projet support SLAM5.
+
 
 ## Travail à faire
 
@@ -14,7 +14,7 @@ Projet support SLAM5.
 8. Compléter l'implémentation des deux méthodes `ajouterAuDessin` et `supprimerDuDessin` de la classe `EditeurDeFormes`.   FAIT
 9. Ajoutez tous les getters et setters nécessaires à la compilation et au bon fonctionnement de l'application.  FAIT
 
-2) Evolution 
+**2) Evolution **
 
 Le bouton « Forme » courant deviendra « Forme rectangle » Fait
 
@@ -24,7 +24,7 @@ Ajouter un bouton « Forme ovale » en examinant le traitement actuel des bo
 
 Ajouter une classe qui implémente la nouvelle forme en regardant comment la classe Forme fonctionne Fait
 
-3 )Refactoring
+**3 )Refactoring**
 
 
 Concevez la classe abstraite Forme dont vont dériver deux classes concrètes Rectangle et Ovale ; factorisez le code commun dans la classe abstraite Fait
