@@ -1,6 +1,6 @@
 # Lecteur de formes
 
-
+Voici ma Blague " Le breakpoint c'est pas un film ou la police arrete les voleurs en surfant "
 
 ## Travail à faire
 
@@ -30,3 +30,5 @@ Ajouter une classe qui implémente la nouvelle forme en regardant comment la cla
 Concevez la classe abstraite Forme dont vont dériver deux classes concrètes Rectangle et Ovale ; factorisez le code commun dans la classe abstraite Fait
 
 Concevez la classe abstraite OutilForme dont vont dériver deux classes concrètes OutilRectangle et OutilOvale ; factorisez le code commun dans la classe abstraite L'ajout de nouvelles formes et des outils associés par la suite sera alors grandement facilité. Fait
+
+
