@@ -31,7 +31,6 @@ public class Ovale extends Forme{
           g.setColor(saveCouleur);
         }
     }
-
-    
+   
     
 }
