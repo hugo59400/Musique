@@ -80,22 +80,8 @@ public abstract class Forme{
     hauteur = basDroite.y - y;
   }
 
-  public void dessiner(Graphics g) {
-    Color saveCouleur = g.getColor();
-    if (estSelectionnee) {
-      g.setColor(COULEUR_LIGNE_JOUEE);
-    } else {
-      g.setColor(Color.white);
-    }
-    g.fillRect(x, y, longueur, hauteur);
-    g.setColor(saveCouleur);
-    g.drawRect(x, y, longueur, hauteur);
-
-    if (colonneJouee > 0 && colonneJouee < longueur) {
-      g.setColor(Color.red);
-      g.drawLine(x + colonneJouee, y, x + colonneJouee, y + hauteur);
-      g.setColor(saveCouleur);
-    }
+  public abstract  void dessiner(Graphics g) {
+   
   }
 
   public void deplacer(int dx, int dy) {
