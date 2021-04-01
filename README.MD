@@ -14,7 +14,7 @@
 8. Compléter l'implémentation des deux méthodes `ajouterAuDessin` et `supprimerDuDessin` de la classe `EditeurDeFormes`.   FAIT
 9. Ajoutez tous les getters et setters nécessaires à la compilation et au bon fonctionnement de l'application.  FAIT
 
-**2) Evolution **
+****2) Evolution ****
 
 Le bouton « Forme » courant deviendra « Forme rectangle » Fait
 
